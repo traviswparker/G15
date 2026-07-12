@@ -1,5 +1,5 @@
 #/bin/bash
-sudo apt install build-essential g15daemon libg15-dev libg15daemon-client-dev libg15render-dev libgtop2-dev xorg-dev -y || exit
+sudo apt install build-essential autoconf g15daemon libg15-dev libg15daemon-client-dev libg15render-dev libgtop2-dev xorg-dev -y || exit
 tar -xvf g15stats.tar.gz
 pushd g15stats 
 ./install.sh || exit
